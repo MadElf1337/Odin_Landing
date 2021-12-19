@@ -65,7 +65,7 @@ a {
   flex-direction: column;
 }
 
-img {
+.right-side {
   max-width: 30em;
 }
 
@@ -92,4 +92,77 @@ button {
   font-size: 36px;
   color: #1f2937;
   font-weight: 800;
+}
+
+.part3images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.p3img {
+  max-width: 20em;
+}
+
+.p3content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.part4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  padding: 4em 6em 0em 6em;
+}
+
+.quoteauthor {
+  padding-right: 13em;
+
+  font-weight: 700;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.part5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.blue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #3882f6;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.leftblue {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5em;
+}
+
+.calltoaction {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.signup {
+  color: #f9faf8;
+}
+.temp {
+  gap: 10em;
 }
